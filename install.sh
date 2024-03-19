@@ -7,6 +7,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 git config --global user.email vljosa@vivodyne.com
 git config --global user.name "Vebjorn Ljosa"
+git config --global pull.rebase true
 
 # Find the first expansion of the wildcard
 PYRIGHT=$(ls -d /workspaces/hive-*/services/*/.venv/bin/pyright-langserver | head -n 1)
