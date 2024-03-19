@@ -16,3 +16,7 @@ if [ -z "$PYRIGHT" ]; then
 fi
 sudo mkdir -p /Users/vljosa/.emacs.d/.cache/lsp/npm/pyright/bin/
 sudo ln -sf "$PYRIGHT" /Users/vljosa/.emacs.d/.cache/lsp/npm/pyright/bin/
+
+mkdir -p ~/bin
+cp git-with-environment ~/bin/git
+chmod 755 ~/bin/git

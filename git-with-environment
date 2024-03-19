@@ -1,0 +1,4 @@
+#!/bin/bash
+. /etc/environment
+export PATH
+exec /usr/local/bin/git "$@"
