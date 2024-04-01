@@ -21,3 +21,8 @@ sudo ln -sf "$PYRIGHT" /Users/vljosa/.emacs.d/.cache/lsp/npm/pyright/bin/
 mkdir -p ~/bin
 cp git-with-environment ~/bin/git
 chmod 755 ~/bin/git
+
+sudo mkdir -p /Users/vljosa
+sudo ln -sf /workspaces /Users/vljosa/src
+
+echo 'PS1=$(echo "$PS1" | sed "s/➜/->/g")' >> ~/.bashrc
